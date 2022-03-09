@@ -1,0 +1,93 @@
+
+.item-container {
+  display:flex;
+  justify-content:center;
+  flex-direction: row;
+  align-items:center;
+  flex-wrap: wrap;
+  padding:40px;
+} 
+.card {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  width: 400px;
+  height:fit-content;
+  border-radius: 10px;
+  padding: 1em;
+  box-shadow: rgba(88, 85, 85, 0.2) 0px 2px 8px 0px;
+  font-family: cursive;
+ }
+
+
+.search {
+  text-align: center;
+  padding: 2px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(88, 85, 85, 0.2) 0px 2px 8px 0px;
+  size: 15px;
+}
+
+.card2 {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  
+}
+.card2:hover{
+  transform: scale(3);
+}
+.formbutton {
+  font: inherit;
+  cursor: pointer;
+  background-color: #282c34;
+  border: 1px solid #282c34;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.formbutton:hover,
+.formbutton:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+.card3 {
+  text-align: center;
+  padding: 2px;
+  width: 200px;
+  border-radius: 30px;
+  padding: 1em;
+  box-shadow: rgba(88, 85, 85, 0.2) 0px 2px 8px 0px;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: papyrus;
+}
+
+.loginbutton{ 
+  background-color: #282c34;
+  border: 1px solid #282c34;
+  color: white;
+  font-family: cursive;
+  border-radius: 20px;
+  display: inline;
+  padding: 0.40rem 4rem;
+  font-size:20px;
+  font-family: papyrus;
+}
+
+.loginbutton:hover,
+.loginbutton:active {
+  background-color: #641e03;
+  border-color: #641e03;
+}
+.item-container2 {
+  display:flex;
+  justify-content:center;
+  flex-direction: row;
+  align-items:center;
+  flex-wrap: wrap;
+  padding:20px;
+  font-family: papyrus;
+  font-size: 20px;
+} 
