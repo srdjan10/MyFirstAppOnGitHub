@@ -17,8 +17,6 @@
   box-shadow: rgba(88, 85, 85, 0.2) 0px 2px 8px 0px;
   font-family: cursive;
  }
-
-
 .search {
   text-align: center;
   padding: 2px;
@@ -26,13 +24,13 @@
   border-radius: 10px;
   box-shadow: rgba(88, 85, 85, 0.2) 0px 2px 8px 0px;
   size: 15px;
+  margin-left: 650px;
+  margin-top: 3px;
 }
-
 .card2 {
   transform: scale(1);
   transition: transform 0.5s ease;
-  
-}
+  }
 .card2:hover{
   transform: scale(3);
 }
@@ -54,14 +52,12 @@
 }
 .card3 {
   text-align: center;
-  padding: 2px;
   width: 200px;
-  border-radius: 30px;
-  padding: 1em;
-  box-shadow: rgba(88, 85, 85, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
   flex-direction: row;
   font-size: 20px;
   font-family: papyrus;
+  background-color:white;
 }
 
 .loginbutton{ 
@@ -91,3 +87,13 @@
   font-family: papyrus;
   font-size: 20px;
 } 
+.card4 {
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: papyrus;
+  background-color:white;
+  margin-bottom: auto;
+}

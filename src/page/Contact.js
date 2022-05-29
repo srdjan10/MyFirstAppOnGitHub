@@ -10,7 +10,7 @@ return(
     <form action="">
       <div className="form-item">
         <label for="name">Your name:</label>
-        <input type="text" name="name" id="name"/>
+        <input type="text" name="name" id="name" placeholder="name"/>
       </div>
       <div className="form-item">
         <label for="email">Your email:</label>
@@ -18,7 +18,7 @@ return(
       </div>
       <div className="form-item">
         <label for="message">Your message:</label>
-        <textarea name="message" id="message" cols="30" rows="7"></textarea>
+        <textarea name="message" id="message" cols="30" rows="7" placeholder="If you want write us"></textarea>
       </div>
       <div>
           <button className="formbutton">Submit</button>

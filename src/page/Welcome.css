@@ -1,0 +1,26 @@
+.starting {
+    margin: 2rem auto;
+    text-align: center;
+    font-family: papyrus;
+    color: #282c34;
+  }
+  
+  .starting h1{
+    font-size: 3rem;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #282c34;
+    font-style: italic;
+  }
+
+  .pic{
+      border-radius: 300px;
+  }
+  .starting h2{
+    font-size: 1rem;
+    text-align: center;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-family: papyrus;
+    color: #282c34;
+  }

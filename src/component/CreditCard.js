@@ -3,7 +3,11 @@ import classes from '../component/CreditCard.css'
 
 const CreditCard =()=>{
 
-    return(
+const pay =()=>{
+  alert('You bought the products and expect them at your home address.')
+}
+
+return(
 <div className="creditcard">
   <div className="top-card">
     <h2 className="payment">PAYMENT<br/>DETAILS</h2>
@@ -17,7 +21,7 @@ const CreditCard =()=>{
       </div>
       <div className="card-number-element">
         <h6 className="row-1-grey">CARD NUMBER</h6>
-        <input className="textbox1" contenteditable="true" placeholder="xxxx-xxxx-xxxx-xxxx" maxLength='16'></input>
+        <input className="textbox1" contenteditable="true" placeholder="xxxx-xxxx-xxxx-xxxx" maxLength='19'></input>
       </div>
     </div>
     <div className="row-2">
@@ -56,6 +60,7 @@ const CreditCard =()=>{
         <h6 className="row-2-grey">CVV</h6>
         <input className="textbox2" contenteditable="true" placeholder="number..."></input>
       </div>
+      <button className="creditbutton" onClick={pay}>PAY</button>
     </div>
   </div>
 </div>

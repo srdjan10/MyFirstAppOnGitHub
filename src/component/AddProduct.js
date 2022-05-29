@@ -2,7 +2,7 @@ import React from "react";
 import Input from "./Input";
 import classes from '../App.css'
 
-const AddProduct = props =>{
+const AddProduct = (props) =>{
 
 return(
     <form className="form" >
